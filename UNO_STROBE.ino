@@ -70,7 +70,7 @@ void setup(){
    TCCR1A |=  1<<WGM11;
    TCCR1B = (1<<WGM13 | 1<<WGM12);
    
-   // timer2: rpm update timer (only update the hz display a couple of times per second)
+   // timer2: only update the hz display a couple of times per second
    TCCR2A = 0;
    TCCR2B = 0;
 
