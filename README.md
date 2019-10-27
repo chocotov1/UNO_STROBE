@@ -8,6 +8,8 @@ Tested on UNO and Pro Mini.
 
 ## Hardware
 - rotary encoder with appropriate capacitors + resistors on the the signal pins
+- led flashlight (modified with external cable to your circuit)
+- transistor to switch the flashlight
 - TM1637 7 segment displays
 
 With minor modification you can print the rpm to serial instead.
